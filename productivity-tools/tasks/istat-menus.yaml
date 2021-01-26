@@ -1,0 +1,4 @@
+- name: Install iStat Menus
+  homebrew_cask:
+    name: istat-menus
+    state: latest

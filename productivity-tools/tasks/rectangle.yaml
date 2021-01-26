@@ -1,0 +1,4 @@
+- name: Install rectangle
+  homebrew_cask:
+    name: rectangle
+    state: latest

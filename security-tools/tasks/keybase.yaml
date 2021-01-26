@@ -1,0 +1,4 @@
+- name: Install Keybase
+  homebrew_cask:
+    name: keybase
+    state: latest
