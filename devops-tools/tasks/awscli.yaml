@@ -1,0 +1,4 @@
+- name: Install awscli
+  homebrew:
+    name: awscli
+    state: latest

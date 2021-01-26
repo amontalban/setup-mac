@@ -1,0 +1,4 @@
+- name: Install checkov
+  homebrew:
+    name: checkov
+    state: latest

@@ -1,0 +1,10 @@
+- hosts: localhost
+  connection: local
+  roles:
+    - core
+    - dev-tools
+    - devops-tools
+    - misc-tools
+    - net-tools
+    - productivity-tools
+    - security-tools

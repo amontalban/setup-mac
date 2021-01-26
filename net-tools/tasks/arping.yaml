@@ -1,0 +1,4 @@
+- name: Install arping
+  homebrew:
+    name: arping
+    state: latest

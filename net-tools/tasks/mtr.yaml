@@ -1,0 +1,4 @@
+- name: Install mtr
+  homebrew:
+    name: mtr
+    state: latest

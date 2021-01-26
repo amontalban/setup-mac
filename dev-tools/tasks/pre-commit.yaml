@@ -1,0 +1,4 @@
+- name: Install pre-commit
+  homebrew:
+    name: pre-commit
+    state: latest

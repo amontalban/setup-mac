@@ -1,0 +1,4 @@
+- name: Install minicom
+  homebrew:
+    name: minicom
+    state: latest

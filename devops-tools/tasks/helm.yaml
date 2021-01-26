@@ -1,0 +1,4 @@
+- name: Install Helm
+  homebrew:
+    name: helm
+    state: latest

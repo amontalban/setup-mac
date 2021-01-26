@@ -1,0 +1,7 @@
+- name: Setup security tools
+  include: "{{ app_item | basename }}"
+  with_fileglob:
+  - "*.yaml"
+  when: app_item|basename != "main.yaml"
+  loop_control:
+    loop_var: app_item

@@ -1,0 +1,4 @@
+- name: Install dos2unix
+  homebrew:
+    name: dos2unix
+    state: latest

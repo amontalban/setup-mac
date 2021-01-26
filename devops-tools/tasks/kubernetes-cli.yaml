@@ -1,0 +1,4 @@
+- name: Install Kubernetes CLI
+  homebrew:
+    name: kubernetes-cli
+    state: latest
