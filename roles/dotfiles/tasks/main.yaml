@@ -1,0 +1,13 @@
+- name: Ensure .vimrc config in place
+  copy:
+    src: .vimrc
+    dest: "{{ vimrc }}"
+    backup: yes
+    mode: 0640
+
+- name: Ensure .zshrc config in place
+  copy:
+    src: .zshrc
+    dest: "{{ zshrc }}"
+    backup: yes
+    mode: 0640
