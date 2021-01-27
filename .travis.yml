@@ -1,7 +1,6 @@
 language: minimal
 os: osx
 osx_image:
-  - xcode12.2 # Catalina
   - xcode12.3 # Big Sur
 
 branches:
@@ -9,7 +8,6 @@ branches:
   - main
 
 before_install:
-  - brew upgrade ansible
   - ansible-galaxy collection install -r requirements.yaml
 
 script:
