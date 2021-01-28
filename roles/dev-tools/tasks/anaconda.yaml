@@ -1,0 +1,4 @@
+- name: Install Anaconda
+  homebrew_cask:
+    name: anaconda
+    state: latest
