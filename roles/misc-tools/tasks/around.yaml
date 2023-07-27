@@ -1,0 +1,4 @@
+- name: Install Around
+  homebrew_cask:
+    name: around
+    state: latest

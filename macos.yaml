@@ -1,6 +1,7 @@
 - hosts: localhost
   connection: local
   roles:
+    - brew
     - core
     - dev-tools
     - devops-tools
