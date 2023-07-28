@@ -1,0 +1,4 @@
+- name: Install OrbStack
+  homebrew_cask:
+    name: orbstack
+    state: latest
