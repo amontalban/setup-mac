@@ -1,0 +1,4 @@
+- name: Install kube-ps1
+  homebrew:
+    name: kube-ps1
+    state: latest
