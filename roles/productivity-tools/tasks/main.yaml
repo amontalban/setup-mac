@@ -1,5 +1,5 @@
 - name: Setup productivity tools
-  include: "{{ app_item | basename }}"
+  include_tasks: "{{ app_item | basename }}"
   with_fileglob:
   - "*.yaml"
   when: app_item|basename != "main.yaml"

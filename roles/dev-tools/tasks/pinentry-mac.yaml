@@ -1,0 +1,4 @@
+- name: Install pinentry-mac
+  homebrew:
+    name: pinentry-mac
+    state: latest

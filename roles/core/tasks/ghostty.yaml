@@ -1,0 +1,4 @@
+- name: Install Ghostty
+  homebrew:
+    name: ghostty
+    state: latest

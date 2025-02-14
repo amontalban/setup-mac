@@ -1,4 +1,0 @@
-- name: Install iTerm2
-  homebrew:
-    name: iterm2
-    state: latest

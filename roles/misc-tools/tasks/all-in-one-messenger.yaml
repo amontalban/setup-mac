@@ -1,4 +1,0 @@
-- name: Install All in One Messenger
-  homebrew_cask:
-    name: all-in-one-messenger
-    state: latest

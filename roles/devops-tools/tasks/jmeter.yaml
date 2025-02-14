@@ -1,4 +1,0 @@
-- name: Install jmeter
-  homebrew:
-    name: jmeter
-    state: latest
