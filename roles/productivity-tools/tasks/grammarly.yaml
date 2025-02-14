@@ -1,4 +1,0 @@
-- name: Install Grammarly
-  homebrew_cask:
-    name: grammarly
-    state: latest
