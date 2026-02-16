@@ -1,0 +1,4 @@
+- name: Install kubectx
+  homebrew:
+    name: kubectx
+    state: latest
