@@ -1,0 +1,8 @@
+- name: Configure passwordless sudo for current user
+  become: true
+  community.general.sudoers:
+    name: "{{ ansible_user_id }}-nopasswd"
+    user: "{{ ansible_user_id }}"
+    commands: ALL
+    nopassword: true
+    state: present

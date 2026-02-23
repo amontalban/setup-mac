@@ -13,5 +13,5 @@ Then run:
 
 ```
 ansible-galaxy collection install -r requirements.yaml
-ansible-playbook macos.yaml
+ansible-playbook macos.yaml --ask-become-pass
 ```

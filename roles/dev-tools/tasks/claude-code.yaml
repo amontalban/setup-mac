@@ -1,0 +1,4 @@
+- name: Install Claude Code
+  homebrew:
+    name: claude-code
+    state: latest

@@ -1,7 +1,10 @@
+- name: Configure passwordless sudo
+  include_tasks: sudoers.yaml
+
 - name: Setup core tools
   include_tasks: "{{ app_item | basename }}"
   with_fileglob:
   - "*.yaml"
-  when: app_item|basename != "main.yaml"
+  when: app_item|basename != "main.yaml" and app_item|basename != "sudoers.yaml"
   loop_control:
     loop_var: app_item
