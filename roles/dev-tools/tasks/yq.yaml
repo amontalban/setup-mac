@@ -1,0 +1,4 @@
+- name: Install yq
+  homebrew:
+    name: yq
+    state: latest
